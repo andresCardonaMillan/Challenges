@@ -59,7 +59,7 @@ class ArbolGenealogico {
                 return null
             }
         } else {
-            const parentNode = this.search(parent.nombre); // Debes pasar el nombre del padre aquí
+            const parentNode = this.search(parent.nombre);
             if (parentNode) {
                 parentNode.children.push(newNode);
             } else {
@@ -122,11 +122,11 @@ const hijo3 = new Persona("David Pérez Gómez", "01/01/2010");
 
 arbol.insert(abuela, null);
 arbol.insert(abuelo, null);
-arbol.insert(padre, abuela); // Pasar el objeto Persona como segundo argumento
-arbol.insert(madre, abuelo); // Pasar el objeto Persona como segundo argumento
-arbol.insert(hijo1, padre); // Pasar el objeto Persona como segundo argumento
-arbol.insert(hijo2, padre); // Pasar el objeto Persona como segundo argumento
-arbol.insert(hijo3, padre); // Pasar el objeto Persona como segundo argumento
+arbol.insert(padre, abuela);
+arbol.insert(madre, abuelo); 
+arbol.insert(hijo1, padre); 
+arbol.insert(hijo2, padre); 
+arbol.insert(hijo3, padre); 
 
 console.log("----- Preorden -----");
 arbol.preOrder();
