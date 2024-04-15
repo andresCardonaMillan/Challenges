@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Ajusta la altura según sea necesario */
+    color: white;
+  }
+  
+  .gif-grid {
+    text-align: center; /* Centra el texto dentro del div */
+  }
+  
+  .gif-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los GIFs */
+  }
+  
+  .gif-item {
+    max-width: 200px; /* Ancho máximo de cada GIF */
+  }
+  
+  .gif-item img {
+    max-width: 100%;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .search-input {
+    margin-bottom: 10px;
+  }

@@ -22,14 +22,15 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className='primer-challenge'>
       <Challenge />
       </div>
-      <div>
+      <div className='segundo_challenge'>
         <h1>Segundo Challenge</h1>
         <h3>Contador: {contador}</h3>
         <NewsButtons onSubstract={handleSubsstract} onReset={handleReset} onAdd={handleAdd} />
       </div>
+      <div className='tercer_challenge'></div>
     </div>
   );
 }
