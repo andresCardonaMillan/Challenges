@@ -1,0 +1,20 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "apellido_paterno": "Cardona",
+            "apellido_materno": "Millan",
+            "nombre": "Andres",
+            "username": "millanyt",
+            "password": "827ccb0eea8a706c4c34a16891f84e7b"
+        },
+        {
+            "id":2,
+            "apellido_paterno": "Millan",
+            "apellido_materno": "Torres",
+            "nombre": "Ingrid",
+            "username": "inmito",
+            "password": "01cfcd4f6b8770febfb40cb906715822"
+        }
+    ]
+}
